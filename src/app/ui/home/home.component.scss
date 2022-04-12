@@ -59,6 +59,10 @@
        
     }
 
+    &__button:hover {
+        box-shadow: 0 0 1em hsl(150, 100%, 66%);
+    }
+
     @media screen and (max-width: 480px) {
         &__title {
             font-size: 18px;
